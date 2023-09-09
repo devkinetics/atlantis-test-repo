@@ -4,13 +4,13 @@ provider "aws" {
 
 variable "AWS_REGION" {
   type = string
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 variable "AMIS" {
   type = map(string)
   default = {
-    eu-west-1 = "my-ami"
+  us-east-1 = "my-ami"
   }
 }
 
